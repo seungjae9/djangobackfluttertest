@@ -7,7 +7,7 @@ import random
 # Create your views here.
 @api_view(['GET'])
 def helloAPI(request):
-    return Response("hello world!")
+    return Response("박승재 world!")
 
 @api_view(['GET'])
 def randomQuiz(request, id):
